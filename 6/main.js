@@ -4,7 +4,11 @@ var numero = parseInt(prompt("Dammi un numero"));
 
 // Cubo del numero
 
-var numerocubo = Math.pow(numero, 3);
+var numeroCubo = Math.pow(numero, 3);
 
 // Stampo il numero al cubo
-console.log(numerocubo);
+console.log(numeroCubo);
+
+var numeroAlternativa = (numero * numero * numero)
+
+console.log(numeroAlternativa);
