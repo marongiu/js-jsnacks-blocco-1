@@ -1,6 +1,11 @@
 // Chiedo all'utente di inserire 4 cifre
 
-var numeri = parseInt(prompt("Dammi 4 numeri:"));
+var numeri = prompt("Dammi 4 numeri:");
 
-numeri = numeri+0;
-console.log(numeri);
+somma = 0;
+
+for (var i = 0; i < numeri.length; i++) {
+  somma = somma + parseInt(numeri[i]);
+}
+
+console.log(somma);
